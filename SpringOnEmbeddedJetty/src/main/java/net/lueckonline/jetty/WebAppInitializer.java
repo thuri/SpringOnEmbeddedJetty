@@ -8,7 +8,7 @@ import org.springframework.web.WebApplicationInitializer;
 public class WebAppInitializer implements WebApplicationInitializer {
 
   public void onStartup(ServletContext servletContext) throws ServletException {
-    System.out.println("This is not called");
+    System.out.println("Not it is called");
   }
 
 }
